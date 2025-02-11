@@ -1,0 +1,117 @@
+body {
+    background-color:rgb(236, 187, 187);
+}
+
+.image-container {
+    list-style:none;
+    text-align:center;
+    margin-top: 25px;
+}
+
+.container {
+    margin-left: 480px;
+    margin-right:480px;
+    border-style:double;
+    border-color: black;
+    border-radius:25px;
+    padding: 10px;
+    text-align:center;
+}
+
+.B2TSM {    
+    text-align:center;
+    list-style: none;
+    margin-right: 350px;
+    margin-left: 350px;
+    margin-top: 20px;
+    border-style:double;
+    border-color: black;
+    background-color:rgb(243, 139, 139) ;
+
+}
+
+.nav {
+    list-style:none;
+    text-align:center;
+}
+
+.nav li{
+    display:inline;
+    margin-right: 20px;
+}
+
+.composer-paragraphs {
+    text-align:center;
+    list-style: none;
+    margin-right: 350px;
+    margin-left: 350px;
+    margin-top: 20px;
+    border-style:double;
+    border-color: black;
+    background-color:rgb(243, 139, 139) ;
+
+}
+
+.bach_about {
+    text-align:center;
+    list-style: none;
+    margin-right: 350px;
+    margin-left: 350px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.mozart_about {
+    text-align:center;
+    list-style: none;
+    margin-right: 350px;
+    margin-left: 350px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.beethoven_about {
+    text-align:center;
+    list-style: none;
+    margin-right: 350px;
+    margin-left: 350px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.chopin_about {
+    text-align:center;
+    list-style: none;
+    margin-right: 350px;
+    margin-left: 350px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.tchaikovksy_about {
+    text-align:center;
+    list-style: none;
+    margin-right: 350px;
+    margin-left: 350px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.shostakovich_about {
+    text-align:center;
+    list-style: none;
+    margin-right: 350px;
+    margin-left: 350px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+.span1 {
+    font-style: italic;
+}
+
+.span2 {
+    font-weight:bold;
+    text-decoration:underline ;
+}

@@ -1,0 +1,38 @@
+body {
+    background-color:rgb(211, 211, 255);
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 50px;
+    background-color: cadetblue;
+    
+}
+.nav {
+    list-style:none;
+    text-align:center;
+}
+
+.nav li{
+    display:inline;
+    margin-right: 20px;
+}
+
+.copy{
+    font-size:25px;
+    color:burlywood;
+    background-color: bisque;
+
+}
+
+.span1{
+    color:rgb(21, 103, 50);
+    font-size:xx-large;
+}
+
+.span2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:crimson
+}
