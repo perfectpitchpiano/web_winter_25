@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+    <style>    
+        body {
+            background-image: url(images/school_background.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }      
+    </style>
+
+</head>
+
+<body>
+<div class="full1" style="opacity: 0.95; margin-left: 300px; margin-right: 300px;">
+    <div class="container"> 
+        <ul class="nav">
+            <li class="index"><a href="index.html">About Me!</a></li>
+            <li class="classes"><a href="classes.html">Classes</a></li>
+            <li class="interests"><a href="interests.html">Interests</a></li>
+            <li class="monty"><a href="monty.html">MONTY!</a></li>
+            <li class="contact"><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+<h1 style="text-align: center;">Classes</h1>
+<p style="text-align: center; font-size: larger;">In this section I will talk about the three favorite classes that I am taking now. In the About Me section, I have listed all the classes I am taking currently.</p>
+</div>
+
+<div class="display" style="display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap;">
+    <!-- Math Section -->
+    <div class="full1" style="flex: 1 1 30%; text-align: center; min-width: 250px;">
+        <h3>1. Math</h3>
+        <button onclick="document.getElementById('change-text').innerHTML='I love math because I love to problem solve and use different formulas and postulates to solve different equations or write a proof. It\'s always been a subject that came more naturally to me compared to literature or history. So far, in Pre-Calculus, we have reviewed some concepts from Algebra 2, learned Conic Sections, Logarithms, and Trigonometry. In the Trigonometry unit, we covered trig formulas, trig proofs, and sinusoidal functions. So far, we have done two projects. In one of them, we modeled how to pay off a major credit card expense and answered questions using the concepts we learned. In the second one, we had to find functions to different graphs using sinusoidal equations.'">Click this button...</button>
+        <p id="change-text">This text will change and describe what I like about this class!</p>
+        <img src="images/math.jpg" style="width: 300px; margin-left: 10px; text-align: center; margin-bottom: 1%; border-radius: 10px;" alt="Math Image">
+    </div>
+
+    <!-- Science Section -->
+    <div class="full1" style="flex: 1 1 30%; text-align: center; min-width: 250px;">
+        <h3>2. Science</h3>
+        <button onclick="document.getElementById('science-text').innerHTML='I love science class this year because I enjoy the labs we get to do. I also love the astronomy unit we did because I feel like I learned a lot from it. So far, in science we have learned the basic safety rules of doing a lab experiment, states of matter, astronomy, and now we are covering light/sound waves and color. In the future, we will be learning about Oceanography, Meteorology, and Geology.'">Click this button...</button>
+        <p id="science-text">This text will change and describe what I like about this class!</p>
+        
+        <button onclick="document.getElementById('green-club').innerHTML='Apart from science class, I also like being part of Green Club (which Mr. Barrager is a sponsor for) and making an impact to my community that way. I love spreading awareness about different environmental issues to my peers and educating them on how they can make a difference.'">Click again!</button>
+        <p id="green-club">I have just one more thing to say!</p>
+        <img src="images/science.avif" style="width: 300px; margin-left: 10px; text-align: center; margin-bottom: 1%; border-radius: 10px;" alt="Science Image">
+    </div>
+
+    <!-- WEB Section -->
+    <div class="full1" style="flex: 1 1 30%; text-align: center; min-width: 250px;">
+        <h3>3. WEB!</h3>
+        <button onclick="document.getElementById('web').innerHTML='I love WEB class because making websites and learning about different pieces of technology is very interesting. Since the world is moving at such a rapid pace in terms of technology, it is important to get a grasp of things such as coding and learning about how a website runs is extremely important. In WEB class, we have learned how a website runs (where it starts, goes, etc.), and how to code using HTML, CSS, and JavaScript. Since I am planning to do robotics again next year, and was learning how to code using Python, this is a great step for me to learn how to code and how to approach learning a programming language. I\'m looking forward to diving into more subjects related to making websites and coding.'">Click this button...</button>
+        <p id="web">This text will change and describe what I like about this class!</p>
+        <img src="images/web.jpg" style="width: 300px; margin-left: 10px; text-align: center; margin-bottom: 1%; border-radius: 10px;" alt="WEB Image">
+    </div>
+</div>
+
+
+
+
+</body>
+</html>
